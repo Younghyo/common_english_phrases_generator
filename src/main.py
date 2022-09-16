@@ -22,7 +22,7 @@ for i, par in enumerate(document.paragraphs):
 
     url = url_base + q
     #print(s, q, url)
-    f.write(f"<p><a href='{url}' target='_blank'>{i}. {s}</a></p>\n")
+    f.write(f"<p>{i}. {s}<br><a href='{url}' target='_blank'>[youglish]</a></p>\n")
 
 f.write('''
 </body>
